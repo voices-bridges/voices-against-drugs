@@ -16,8 +16,7 @@ const baseUrl = "/";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "voices-against-drugs",
-  tagline:
-    "Life is short. Cherish everyday, learning everyday, enjoy everyday!",
+  tagline: "Life is short, be away from drugs.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here

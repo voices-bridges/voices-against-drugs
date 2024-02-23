@@ -10,6 +10,16 @@
       },
       "detail": "docusaurus start",
       "command": "pnpm run start"
+    },
+    {
+      "label": "Build",
+      "type": "shell",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "docusaurus build",
+      "command": "pnpm run build"
     }
   ]
 }

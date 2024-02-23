@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "label": "Start",
+      "type": "shell",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "docusaurus start",
+      "command": "pnpm run start"
+    }
+  ]
+}

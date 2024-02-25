@@ -16,7 +16,7 @@ const baseUrl = "voices-against-drugs";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "voices-against-drugs",
-  tagline: "Life is short, be away from drugs.",
+  tagline: "Life is short, stay away from drugs.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -50,7 +50,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: `https://github.com/voices-bridges/${baseUrl}/edit/master/`,
+          editUrl: `https://github.com/voices-bridges/${baseUrl}/edit/main/`,
           showLastUpdateTime: true,
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
@@ -61,7 +61,7 @@ const config = {
             defaultReadingTime({ content, options: { wordsPerMinute: 220 } }),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: `https://github.com/voices-bridges/${baseUrl}/edit/master/`,
+          editUrl: `https://github.com/voices-bridges/${baseUrl}/edit/main/`,
           blogSidebarCount: "ALL",
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],

@@ -2,13 +2,22 @@
 	"version": "2.0.0",
 	"tasks": [
     {
-      "label": "Start",
+      "label": "Start-zh-HanS",
       "type": "shell",
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "detail": "docusaurus start",
+      "detail": "start simplified chinese website",
+      "command": "pnpm run start --locale zh-HanS"
+    },
+    {
+      "label": "Start-en",
+      "type": "shell",
+      "group": {
+        "kind": "build",
+      },
+      "detail": "start english website",
       "command": "pnpm run start"
     },
     {
@@ -18,7 +27,7 @@
         "kind": "build",
         "isDefault": true
       },
-      "detail": "docusaurus build",
+      "detail": "build docusaurus websites.",
       "command": "pnpm run build"
     }
   ]

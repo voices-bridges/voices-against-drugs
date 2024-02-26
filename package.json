@@ -31,6 +31,7 @@
     "@docusaurus/plugin-content-docs": "^3.1.1",
     "@docusaurus/plugin-content-pages": "^3.1.1",
     "@docusaurus/preset-classic": "3.1.1",
+    "@docusaurus/theme-classic": "^3.1.1",
     "@docusaurus/theme-mermaid": "3.1.1",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",

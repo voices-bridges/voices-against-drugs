@@ -3,6 +3,7 @@
  * */
 import React from "react";
 import { Chrono } from "react-chrono";
+import ExecutionEnvironment from "@docusaurus/ExecutionEnvironment";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
 const DATA = [
@@ -147,7 +148,9 @@ We urge you to reconsider this decision for the sake of all Richmond residents' 
 ];
 
 function RichmondSCSTimeline() {
-  return <Chrono items={DATA} mode="VERTICAL" />;
+  if (ExecutionEnvironment.canUseDOM) {
+    return <Chrono items={DATA} mode="VERTICAL" />;
+  }
 }
 
 export default function RichmondSCSTimelineChart() {

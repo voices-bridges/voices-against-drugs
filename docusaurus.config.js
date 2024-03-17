@@ -74,12 +74,11 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      }),
-      {
+        // https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-gtag
         gtag: {
           trackingID: "G-V4716YXVBJ",
         },
-      },
+      }),
     ],
   ],
   plugins: [

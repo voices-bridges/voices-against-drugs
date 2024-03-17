@@ -74,7 +74,7 @@ function GenerateTimelines(data, divID) {
   useEffect(() => {
     if (divRef.current) {
       // Adjust height of the div here
-      divRef.current.style.height = "600px"; // Example: set height to 300px
+      //   divRef.current.style.height = "600px"; // Example: set height to 300px
     }
     // Load CSS
     const linkElement = document.createElement("link");
@@ -119,4 +119,11 @@ function RichmondPostMotionTimeline() {
   return GenerateTimelines(postMotionData, "postmotion");
 }
 
-export { RichmondTimeline, RichmondPostMotionTimeline };
+function RichmondAllTimeline() {
+  return GenerateTimelines(
+    preMotionData.concat(postMotionData),
+    "motiontimeline",
+  );
+}
+
+export { RichmondTimeline, RichmondPostMotionTimeline, RichmondAllTimeline };

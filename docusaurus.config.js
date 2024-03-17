@@ -15,7 +15,7 @@ const baseUrl = "voices-against-drugs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "voices-against-drugs",
+  title: "Timeline of Richmond Supervised Consumption Sites (SCS) Incident",
   tagline: "Life is short, stay away from drugs.",
   favicon: "img/favicon.ico",
 

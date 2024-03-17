@@ -24,6 +24,11 @@ export function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
+        <p>
+          &quot;Between a high, solid wall and an egg that breaks it, I will
+          always stand on the side of the egg.&quot;
+        </p>
+        <p>― Haruki Murakami</p>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons} />
       </div>

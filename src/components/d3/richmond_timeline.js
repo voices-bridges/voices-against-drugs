@@ -7,6 +7,7 @@ const preMotionData = [
   {
     day: "2024-01-30 00:00",
     text: "City Councillors Kash Heed and Laura Gillanders proposed a motion to conduct a feasibility analysis for establishing a drug injection site. ",
+    url: "https://citycouncil.richmond.ca/__shared/assets/Motion_Supervised_drug_consumption_site72161.pdf",
   },
   {
     day: "2024-02-04 00:00",
@@ -16,14 +17,16 @@ const preMotionData = [
   {
     day: "2024-02-05 00:00",
     text: "The motion was approved by the city council (8 in favor, 1 against, with Councillor Chak Au opposing). During the hearing, 10 Richmond residents spoke (7 in favor, 3 against).",
+    url: "https://www.youtube.com/watch?v=GoAaosM-MaY&t=24s",
   },
   {
     day: "2024-02-10 00:00",
     text: "a Reddit forum post brought to light that one of the councilors who initiated the motion had accepted a special advisor position at Lucy Scientific Discovery company on March 29, 2023. This company primarily focuses on producing alternative experimental drugs for drug addicts.",
+    url: "https://www.reddit.com/r/richmondbc/comments/1anlah2/concerns_over_potential_conflict_of_interest/",
   },
   {
     day: "2024-02-12 00:00",
-    text: "Public hearing on the issue was reconvened with 38 people speaking, with 36 opposing and 2 supporting. ",
+    text: "Public hearing on the issue was reconvened with 36 people speaking, with 34 opposing and 2 supporting. ",
     url: "https://citycouncil.richmond.ca/agendas/council/021224_minutes.htm",
   },
   {
@@ -47,20 +50,22 @@ const postMotionData = [
   {
     day: "2024-02-14 10:00",
     text: "Vancouver Coastal Health (VCH) publicly stated that a standalone supervised consumption site (SCS) isn't suitable for Richmond. ",
+    url: "https://vancouver.citynews.ca/2024/02/14/richmond-supervised-consumption-site-vch/",
   },
   {
     day: "2024-02-14 00:00",
     text: "Mayor Malcolm Brodie was interviewed by a CBC reporter. When asked about the concerns of some Richmond locals regarding the perceived rush in approving the motion, Brodie defended the council's process. He stated that nothing had been rushed and emphasized that the council had diligently followed the established procedure. ",
+    url: "https://www.youtube.com/watch?v=EixLhBO84PI&t=179s",
   },
   {
     day: "2024-02-16 00:00",
     text: "Mayor Malcolm Brodie confirmed during an interview with CTV's morning news that he had received Vancouver Coastal Health's response. Despite this, he stated that he would still meet with provincial health officials to discuss the feasibility of implementing the supervised consumption site (SCS) project in Richmond. ",
-    url: "https://bc.ctvnews.ca/richmond-mayor-says-conversations-with-health-authority-will-continue-after-safe-consumption-site-rejected-1.6772212",
+    url: "https://bc.ctvnews.ca/video/c2868787-the-future-of-harm-reduction-in-richmond",
   },
   {
     day: "2024-02-19 11:30",
     text: "Around 900 Richmond residents held a protest at the city library, with speeches from various individuals, including politicians. The protest lasted nearly 3 hours, with a peak attendance of 1,300. Later that afternoon, Councilor Carol Day said in an interview that the protesters had been misled by politicians trying to gain votes. She clarified that the motion was just to study the feasibility of the project, and the final decision was up to Vancouver Coastal Health. She stressed that the city's priority was to offer more services to people with drug addiction. Although VCH didn't see the need for the SCS project, they were open to other supportive programs, which was in line with the city council's goals. ",
-    url: "https://twitter.com/voiceforkidsRmd",
+    url: "https://www.richmond-news.com/local-news/no-drugs-in-richmond-protest-held-on-family-day-8327694 ",
   },
   {
     day: "2024-02-20 00:00",
@@ -69,12 +74,13 @@ const postMotionData = [
   },
   {
     day: "2024-02-26 00:00",
-    text: "Mayor Malcolm Brodie  issued a public statement to several news outlets, acknowledging that discussions regarding the supervised consumption site (SCS) project had been completely shelved by the provincial government. ",
+    text: "Mayor Malcolm Brodie issued a public statement to several news outlets, acknowledging that discussions regarding the supervised consumption site (SCS) project had been completely shelved by the provincial government. ",
     url: "https://www.richmond.ca/city-hall/news/2024/clarification26feb2024.htm",
   },
   {
     day: "2024-02-26 20:40",
     text: "Mayor Malcolm Brodie reiterated his earlier public statement during the city council meeting. He expressed his reluctance to comment on Vancouver Coastal Health's response but stated, 'I would not characterize their action, but it doesn't generate a lot of respect from me' ",
+    url: "https://www.malcolmbrodie.com/2024/02/27/letters-richmond-mayor-clarifies-safe-consumption-site-motion",
   },
 ];
 

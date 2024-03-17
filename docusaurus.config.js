@@ -78,7 +78,6 @@ const config = {
       {
         gtag: {
           trackingID: "G-V4716YXVBJ",
-          anonymizeIP: true,
         },
       },
     ],

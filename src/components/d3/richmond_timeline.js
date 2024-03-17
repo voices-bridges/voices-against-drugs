@@ -23,7 +23,7 @@ const preMotionData = [
   },
   {
     day: "2024-02-12 00:00",
-    text: "Public hearing on the issue was reconvened with 38 people speaking, with 36 opposing and 2 supporting. ",
+    text: "Public hearing on the issue was reconvened with 36 people speaking, with 34 opposing and 2 supporting. ",
     url: "https://citycouncil.richmond.ca/agendas/council/021224_minutes.htm",
   },
   {

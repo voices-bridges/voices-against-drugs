@@ -4,7 +4,6 @@
 import React from "react";
 import { Chrono } from "react-chrono";
 import ExecutionEnvironment from "@docusaurus/ExecutionEnvironment";
-import BrowserOnly from "@docusaurus/BrowserOnly";
 
 const DATA = [
   {
@@ -153,12 +152,4 @@ function RichmondSCSTimeline() {
   }
 }
 
-export default function RichmondSCSTimelineChart() {
-  <BrowserOnly fallback={<div>Loading...</div>}>
-    {() => {
-      return <Chrono items={DATA} mode="VERTICAL" />;
-    }}
-  </BrowserOnly>;
-}
-
-export { RichmondSCSTimeline, RichmondSCSTimelineChart };
+export { RichmondSCSTimeline };

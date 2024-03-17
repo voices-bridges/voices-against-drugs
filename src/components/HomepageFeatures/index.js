@@ -3,14 +3,14 @@ import clsx from "clsx";
 import Heading from "@theme/Heading";
 
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import { RichmondAllTimeline } from "@site/src/components/d3/richmond_timeline";
+import { RichmondSCSTimelineChart } from "@site/src/components/react/richmond_scs";
 import styles from "./styles.module.css";
 
 export function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <RichmondAllTimeline />
+        <RichmondSCSTimelineChart />
       </div>
     </section>
   );

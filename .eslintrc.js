@@ -49,5 +49,6 @@ module.exports = {
       2,
       { ignore: ["^@theme", "^@docusaurus", "^@site"] },
     ],
+    "import/prefer-default-export": "off",
   },
 };

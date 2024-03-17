@@ -102,7 +102,7 @@ const config = {
         title: "voices-against-drugs",
         logo: {
           alt: "voices-against-drugs",
-          src: "img/logo-vb2-bgb-80-180x42.png",
+          src: "img/logo.webp",
         },
         items: [
           {

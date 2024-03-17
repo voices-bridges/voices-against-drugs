@@ -1,3 +1,5 @@
+/* https://walterra.github.io/d3-milestones/?path=/story/d3-milestones-readme-md--page
+ */
 import React, { useEffect, useRef } from "react";
 import milestones from "d3-milestones";
 
@@ -22,6 +24,7 @@ const preMotionData = [
   {
     day: "2024-02-12 00:00",
     text: "Public hearing on the issue was reconvened with 38 people speaking, with 36 opposing and 2 supporting. ",
+    url: "https://citycouncil.richmond.ca/agendas/council/021224_minutes.htm",
   },
   {
     day: "2024-02-13 12:05",
@@ -30,10 +33,12 @@ const preMotionData = [
   {
     day: "2024-02-13 19:00",
     text: "Due to an excess of registered speakers, the hearing was adjourned to the next day with 45 people speaking (36 against, 9 in favor). Allegations of potential conflicts of interest involving Councilor Kash Heed were raised. Councilor Kash Heed issued a statement disclosing that his employment contract with Lucy Scientific Discovery company had terminated in November of the same year.",
+    url: "https://citycouncil.richmond.ca/agendas/council/021224_minutes.htm",
   },
   {
     day: "2024-02-13 23:10",
     text: "the city council conducted a second vote on the motion, resulting in a final tally of 7 in favor and 2 against. Councilor Chak Au maintained his opposition, and Councilor Alexa Loo also voted against, expressing concerns about the motion's vague wording and suggesting it be shelved for further review. Councilor Carol Day criticized some speakers for their divisive remarks, admonishing them with 'Shame on you!' The concluding remarks of other councilors on that day are as follows:  In the evening, approximately 400 protesters gathered outside the venue, and change.org collected 20,000 signatures opposing the motion. ",
+    url: "https://www.richmond.ca/city-hall/news/2024/clarification11feb2024.htm",
   },
 ];
 
@@ -44,27 +49,30 @@ const postMotionData = [
   },
   {
     day: "2024-02-14 00:00",
-    text: "Mayor Michael Brodie was interviewed by a CBC reporter. When asked about the concerns of some Richmond locals regarding the perceived rush in approving the motion, Brodie defended the council's process. He stated that nothing had been rushed and emphasized that the council had diligently followed the established procedure. ",
+    text: "Mayor Malcolm Brodie was interviewed by a CBC reporter. When asked about the concerns of some Richmond locals regarding the perceived rush in approving the motion, Brodie defended the council's process. He stated that nothing had been rushed and emphasized that the council had diligently followed the established procedure. ",
   },
   {
     day: "2024-02-16 00:00",
-    text: "Mayor Michael Brodie confirmed during an interview with CTV's morning news that he had received Vancouver Coastal Health's response. Despite this, he stated that he would still meet with provincial health officials to discuss the feasibility of implementing the supervised consumption site (SCS) project in Richmond. ",
+    text: "Mayor Malcolm Brodie confirmed during an interview with CTV's morning news that he had received Vancouver Coastal Health's response. Despite this, he stated that he would still meet with provincial health officials to discuss the feasibility of implementing the supervised consumption site (SCS) project in Richmond. ",
   },
   {
     day: "2024-02-19 11:30",
     text: "Around 900 Richmond residents held a protest at the city library, with speeches from various individuals, including politicians. The protest lasted nearly 3 hours, with a peak attendance of 1,300. Later that afternoon, Councilor Carol Day said in an interview that the protesters had been misled by politicians trying to gain votes. She clarified that the motion was just to study the feasibility of the project, and the final decision was up to Vancouver Coastal Health. She stressed that the city's priority was to offer more services to people with drug addiction. Although VCH didn't see the need for the SCS project, they were open to other supportive programs, which was in line with the city council's goals. ",
+    url: "https://twitter.com/voiceforkidsRmd",
   },
   {
     day: "2024-02-20 00:00",
     text: "Richmond City Government issued another public statement reiterating that the city council and government only had the authority to apply for the supervised consumption site (SCS) project. The project's operation and approval were under the jurisdiction of Vancouver Coastal Health, affiliated with the provincial government.",
+    url: "https://www.richmond.ca/city-hall/news/2024/noscs20feb2024.htm",
   },
   {
     day: "2024-02-26 00:00",
-    text: "Mayor Michael Brodie issued a public statement to several news outlets, acknowledging that discussions regarding the supervised consumption site (SCS) project had been completely shelved by the provincial government. ",
+    text: "Mayor Malcolm Brodie  issued a public statement to several news outlets, acknowledging that discussions regarding the supervised consumption site (SCS) project had been completely shelved by the provincial government. ",
+    url: "https://www.richmond.ca/city-hall/news/2024/clarification26feb2024.htm",
   },
   {
     day: "2024-02-26 20:40",
-    text: "Mayor Michael Brodie reiterated his earlier public statement during the city council meeting. He expressed his reluctance to comment on Vancouver Coastal Health's response but stated, 'I would not characterize their action, but it doesn't generate a lot of respect from me' ",
+    text: "Mayor Malcolm Brodie reiterated his earlier public statement during the city council meeting. He expressed his reluctance to comment on Vancouver Coastal Health's response but stated, 'I would not characterize their action, but it doesn't generate a lot of respect from me' ",
   },
 ];
 
@@ -74,7 +82,7 @@ function GenerateTimelines(data, divID) {
   useEffect(() => {
     if (divRef.current) {
       // Adjust height of the div here
-      divRef.current.style.height = "600px"; // Example: set height to 300px
+      //   divRef.current.style.height = "1200px"; // Example: set height to 300px
     }
     // Load CSS
     const linkElement = document.createElement("link");
@@ -90,7 +98,7 @@ function GenerateTimelines(data, divID) {
     scriptElement.onload = () => {
       // Initialize milestones and render timeline
       milestones(`#${divID}`)
-        .orientation("horizontal")
+        .orientation("horizontal") // horizontal or vertical
         .mapping({
           timestamp: "day",
         })
@@ -119,4 +127,11 @@ function RichmondPostMotionTimeline() {
   return GenerateTimelines(postMotionData, "postmotion");
 }
 
-export { RichmondTimeline, RichmondPostMotionTimeline };
+function RichmondAllTimeline() {
+  return GenerateTimelines(
+    preMotionData.concat(postMotionData),
+    "motiontimeline",
+  );
+}
+
+export { RichmondTimeline, RichmondPostMotionTimeline, RichmondAllTimeline };

@@ -29,6 +29,7 @@ const preMotionData = [
   {
     day: "2024-02-13 12:05",
     text: "BC Premier David Eby, in an unrelated event, expressed surprise at the timing and necessity of Richmond City Council's motion, stating it doesn't align with the actual needs of Richmond.",
+    url: "https://globalnews.ca/news/10291572/richmond-supervised-consumption-site-proposal-chaos",
   },
   {
     day: "2024-02-13 19:00",
@@ -54,6 +55,7 @@ const postMotionData = [
   {
     day: "2024-02-16 00:00",
     text: "Mayor Malcolm Brodie confirmed during an interview with CTV's morning news that he had received Vancouver Coastal Health's response. Despite this, he stated that he would still meet with provincial health officials to discuss the feasibility of implementing the supervised consumption site (SCS) project in Richmond. ",
+    url: "https://bc.ctvnews.ca/richmond-mayor-says-conversations-with-health-authority-will-continue-after-safe-consumption-site-rejected-1.6772212",
   },
   {
     day: "2024-02-19 11:30",

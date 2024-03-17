@@ -59,6 +59,9 @@ dependencies:
   d3:
     specifier: ^7.8.5
     version: 7.8.5
+  d3-milestones:
+    specifier: ^1.4.7
+    version: 1.4.7
   mermaid:
     specifier: ^10.3.1
     version: 10.6.1
@@ -4806,6 +4809,10 @@ packages:
       d3-path: 3.1.0
     dev: false
 
+  /d3-collection@1.0.7:
+    resolution: {integrity: sha512-ii0/r5f4sjKNTfh84Di+DpztYwqKhEyUlKoPrzUFfeSkWxjW49xU2QzO9qrPrNkpdI0XJkfzvmTu8V2Zylln6A==}
+    dev: false
+
   /d3-color@3.1.0:
     resolution: {integrity: sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA==}
     engines: {node: '>=12'}
@@ -4891,6 +4898,17 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       d3-color: 3.1.0
+    dev: false
+
+  /d3-milestones@1.4.7:
+    resolution: {integrity: sha512-EKq0TqWIx09CaiNm/LQl2fUR5hifGeKkZYhiykB6u6Z8vuRcQcJUiOZntDWEc48pZBh4uL2chaiYrbJPD5CK6g==}
+    engines: {node: '>=16.18'}
+    dependencies:
+      d3-array: 3.2.4
+      d3-collection: 1.0.7
+      d3-scale: 4.0.2
+      d3-selection: 3.0.0
+      d3-time-format: 4.1.0
     dev: false
 
   /d3-path@1.0.9:

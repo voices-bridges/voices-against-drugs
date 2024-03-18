@@ -17,15 +17,8 @@ const DATA = [
   {
     title: "2024-02-04",
     cardTitle: "Change.org Against SCS petition started",
-    media: {
-      name: "Richmond debates supervised consumption site",
-      source: {
-        url: "https://www.youtube.com/embed/GoAaosM-MaY?si=9yE-W0LhFsZBwlMi&amp;start=39",
-      },
-      type: "VIDEO",
-    },
     url: "https://www.change.org/p/stop-the-safe-drug-consumption-site-in-richmond-bc",
-    cardSubtitle: `Richmond resident Gady Tse initiated a petition against the supervised drug consumption site project on change.org, garnering 12,000 signatures within a day.`,
+    cardSubtitle: `Richmond resident Gady Tse initiated a petition against the supervised drug consumption site project on change.org.`,
     cardDetailedText: `I am a resident of Richmond, BC, and a parent to a six-year-old child. I am deeply concerned about the proposed construction of a safe drug consumption site in our community. This is not just an abstract issue for me; it's personal.
 The introduction of such a facility will inevitably attract more drug addicts to our city. This could lead to an increase in crime rates and public safety issues that would directly affect us all - especially our children who are growing up here. Furthermore, there are potential health risks associated with these sites that cannot be ignored.
 Our concerns are will the communities with safe consumption sites would increase in drug-related crimes and public disorder incidents. Additionally, while these sites aim at reducing harm among users, they can inadvertently contribute to increased substance abuse due to easy access.
@@ -46,6 +39,20 @@ We urge you to reconsider this decision for the sake of all Richmond residents' 
     },
     url: "https://www.youtube.com/watch?v=GoAaosM-MaY&t=24s",
     cardDetailedText: `The motion was approved by the city council (8 in favor, 1 against, with Councillor Chak Au opposing). During the hearing, 10 Richmond residents spoke (7 in favor, 3 against)`,
+  },
+  {
+    title: "2024-02-09",
+    cardTitle: "Change.org Against SCS petition growing rapidly",
+    media: {
+      name: "Richmond debates supervised consumption site",
+      source: {
+        url: "https://www.youtube.com/embed/GoAaosM-MaY?si=9yE-W0LhFsZBwlMi&amp;start=39",
+      },
+      type: "VIDEO",
+    },
+    url: "https://www.richmond-news.com/local-news/petition-against-richmond-safe-consumption-site-gathers-nearly-15-000-votes-8280095",
+    cardSubtitle: `Richmond resident Gady Tse's petition gathered 15,000 signatures within five days.`,
+    cardDetailedText: `A petition asking the City of Richmond to stop considering a safe drug consumption site in Richmond has collected nearly 15,000 names so far.`,
   },
   {
     title: "2024-02-10",

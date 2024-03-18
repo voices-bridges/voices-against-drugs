@@ -41,6 +41,14 @@ We urge you to reconsider this decision for the sake of all Richmond residents' 
     cardDetailedText: `The motion was approved by the city council (8 in favor, 1 against, with Councillor Chak Au opposing). During the hearing, 10 Richmond residents spoke (7 in favor, 3 against)`,
   },
   {
+    title: "2024-02-08 17:00",
+    cardTitle: "RITE Richmond slams 'scare tactics'",
+    cardSubtitle:
+      "Letters: Decision to open Richmond safe-consumption site depends on VCH",
+    url: "https://www.richmond-news.com/opinion/letters-decision-to-open-richmond-safe-consumption-site-depends-on-vch-8225879",
+    cardDetailedText: `RITE Richmond (Carol Day, Michael Wolfe, Laura Gillanders, Jerome Dickey, John Roston) slams 'scare tactics' from those sharing 'inflammatory and incorrect' information about the proposed safe drug consumption site.`,
+  },
+  {
     title: "2024-02-09",
     cardTitle: "Change.org Against SCS petition growing rapidly",
     media: {
@@ -61,6 +69,13 @@ We urge you to reconsider this decision for the sake of all Richmond residents' 
       "Potential conflict of interests between Lucy Scientific Discovery company and a city councillor",
     url: "https://www.reddit.com/r/richmondbc/comments/1anlah2/concerns_over_potential_conflict_of_interest/",
     cardDetailedText: `a Reddit forum post brought to light that one of the councilors who initiated the motion had accepted a special advisor position at Lucy Scientific Discovery company on March 29, 2023. This company primarily focuses on producing alternative experimental drugs for drug addicts.`,
+  },
+  {
+    title: "2024-02-11",
+    cardTitle: "Council adopted a Motion 7-2 to proceed with further analysis",
+    cardSubtitle:
+      " That interest has also resulted in a large amount of misinformation and misunderstanding of what will go before Council on Monday and what a supervised consumption site is",
+    url: "https://www.richmond.ca/city-hall/news/2024/clarification11feb2024.htm",
   },
   {
     title: "2024-02-12",

@@ -103,9 +103,9 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: "voices-against-drugs",
+        title: "Voices Against Drugs",
         logo: {
-          alt: "voices-against-drugs",
+          alt: "Voices Against Drugs",
           src: "img/logo.webp",
         },
         items: [

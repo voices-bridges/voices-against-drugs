@@ -72,10 +72,12 @@ We urge you to reconsider this decision for the sake of all Richmond residents' 
   },
   {
     title: "2024-02-11",
-    cardTitle: "Council adopted a Motion 7-2 to proceed with further analysis",
+    cardTitle:
+      "Richmond City Council statement after voted 8-1 in favour of further discussion",
     cardSubtitle:
-      " That interest has also resulted in a large amount of misinformation and misunderstanding of what will go before Council on Monday and what a supervised consumption site is",
+      "Richmond City Council will discuss the merits of pursuing a request for a supervised consumption site in the Richmond Hospital precinct during its meeting on Monday, February 12, 2024.",
     url: "https://www.richmond.ca/city-hall/news/2024/clarification11feb2024.htm",
+    cardDetailedText: `There has been considerable community and media interest in this topic since an initial discussion at the General Purposes Committee on Monday, February 5 where Council voted 8-1 in favour of further discussion. That interest has also resulted in a large amount of misinformation and misunderstanding of what will go before Council on Monday and what a supervised consumption site is.`,
   },
   {
     title: "2024-02-12",

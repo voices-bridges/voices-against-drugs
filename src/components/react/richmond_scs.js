@@ -12,11 +12,18 @@ const DATA = [
     url: "https://citycouncil.richmond.ca/__shared/assets/Motion_Supervised_drug_consumption_site72161.pdf",
     cardSubtitle:
       "City Councillors Kash Heed and Laura Gillanders proposed a motion to conduct a feasibility analysis for establishing a supervised drug consumption site. ",
-    cardDetailedText: `Subject: Research, examine, and develop actions to establish a supervised drug consumption site within the Richmond General Hospital Precinct to address the growing public health crisis related to drug addiction and overdose deaths.  Members of Council: Laura Gillanders and Kash Heed Meeting: General Purposes Committee   Notice Provided on: January 30, 2024 For Consideration on: February 5, 2024 in accordance with Procedure By-law No 7560 `,
+    cardDetailedText: `Subject: Research, examine, and develop actions to establish a supervised drug consumption site within the Richmond General Hospital Precinct to address the growing public health crisis related to drug addiction and overdose deaths.  Members of Council: Laura Gillanders and Kash Heed Meeting: General Purposes Committee`,
   },
   {
     title: "2024-02-04",
     cardTitle: "Change.org Against SCS petition started",
+    media: {
+      name: "Richmond debates supervised consumption site",
+      source: {
+        url: "https://www.youtube.com/embed/GoAaosM-MaY?si=9yE-W0LhFsZBwlMi&amp;start=39",
+      },
+      type: "VIDEO",
+    },
     url: "https://www.change.org/p/stop-the-safe-drug-consumption-site-in-richmond-bc",
     cardSubtitle: `Richmond resident Gady Tse initiated a petition against the supervised drug consumption site project on change.org, garnering 12,000 signatures within a day.`,
     cardDetailedText: `I am a resident of Richmond, BC, and a parent to a six-year-old child. I am deeply concerned about the proposed construction of a safe drug consumption site in our community. This is not just an abstract issue for me; it's personal.
@@ -33,7 +40,7 @@ We urge you to reconsider this decision for the sake of all Richmond residents' 
     media: {
       name: "Richmond debates supervised consumption site",
       source: {
-        url: "https://www.youtube.com/embed/GoAaosM-MaY?si=UoyBZ6j5BzEoNB8A&amp;start=25",
+        url: "https://www.youtube.com/embed/GoAaosM-MaY?si=rsMm3P4h5Dp4e7oJ&amp;start=25",
       },
       type: "VIDEO",
     },
@@ -54,6 +61,28 @@ We urge you to reconsider this decision for the sake of all Richmond residents' 
     cardSubtitle: "36 people speaking, with 34 opposing and 2 supporting.",
     url: "https://citycouncil.richmond.ca/agendas/council/021224_minutes.htm",
     cardDetailedText: `Public hearing on the issue was reconvened with 36 people speaking, with 34 opposing and 2 supporting.`,
+    media: {
+      name: "Richond BC, Regular Council - February 12, 2024",
+      source: {
+        url: "https://www.youtube.com/embed/EaJMa4BqmF4?si=shmNUUxq_3wvCdKu",
+      },
+      type: "VIDEO",
+    },
+  },
+  {
+    title: "2024-02-12",
+    cardTitle: "Protesters met a Radical activist",
+    cardSubtitle:
+      "A radical activist spews racist tirade against a Chinese man",
+    url: "https://www.youtube.com/watch?v=_Y4ZiqHP5B4",
+    cardDetailedText: `"Go back to hongkong!"`,
+    media: {
+      name: "Radical activist spews racist tirade against a Chinese man",
+      source: {
+        url: "https://www.youtube.com/embed/_Y4ZiqHP5B4?si=H1cGKLvZvj_ZvYDK",
+      },
+      type: "VIDEO",
+    },
   },
   {
     title: "2024-02-13 12:05",
@@ -67,8 +96,30 @@ We urge you to reconsider this decision for the sake of all Richmond residents' 
     cardTitle: "2nd Public hearing on the issue.",
     cardSubtitle: "45 people speaking (36 against, 9 in favor)",
     url: "https://citycouncil.richmond.ca/agendas/council/021224_minutes.htm",
+    media: {
+      name: "Richond BC, Regular Council - February 13, 2024",
+      source: {
+        url: "https://www.youtube.com/embed/Gzt_cKQKR_g?si=1QTFL4YcY9YYolLF",
+      },
+      type: "VIDEO",
+    },
     cardDetailedText:
       "Due to an excess of registered speakers, the hearing was adjourned to the next day with 45 people speaking (36 against, 9 in favor). Allegations of potential conflicts of interest involving Councilor Kash Heed were raised. Councilor Kash Heed issued a statement disclosing that his employment contract with Lucy Scientific Discovery company had terminated in November of the same year.",
+  },
+  {
+    title: "2024-02-13 19:00",
+    cardTitle: "Protesters gathered outside",
+    cardSubtitle: "Several hundreds people protested",
+    url: "https://citycouncil.richmond.ca/agendas/council/021224_minutes.htm",
+    media: {
+      name: "Proposed drug consumption site in Richmond draws backlash",
+      source: {
+        url: "https://www.youtube.com/embed/b3-EfdflsFw?si=9gao3B5nQkuFv6R9",
+      },
+      type: "VIDEO",
+    },
+    cardDetailedText:
+      "In the evening, approximately 400 protesters gathered outside the venue, and change.org collected 20,000 signatures opposing the motion.",
   },
   {
     title: "2024-02-13 23:10",
@@ -77,6 +128,13 @@ We urge you to reconsider this decision for the sake of all Richmond residents' 
     cardDetailedText:
       "The city council conducted a second vote on the motion, resulting in a final tally of 7 in favor and 2 against. Councilor Chak Au maintained his opposition, and Councilor Alexa Loo also voted against, expressing concerns about the motion's vague wording and suggesting it be shelved for further review. Councilor Carol Day criticized some speakers for their divisive remarks, admonishing them with 'Shame on you!' The concluding remarks of other councilors on that day are as follows:  In the evening, approximately 400 protesters gathered outside the venue, and change.org collected 20,000 signatures opposing the motion. ",
     url: "https://www.richmond.ca/city-hall/news/2024/clarification11feb2024.htm",
+    media: {
+      name: "Richond BC, Regular Council - February 13, 2024",
+      source: {
+        url: "https://www.youtube.com/embed/Gzt_cKQKR_g?si=Myq-PeOqRVRQV0bu&amp;start=11955",
+      },
+      type: "VIDEO",
+    },
   },
   {
     title: "2024-02-14 10:00",
@@ -101,6 +159,15 @@ We urge you to reconsider this decision for the sake of all Richmond residents' 
       },
       type: "VIDEO",
     },
+  },
+  {
+    title: "2024-02-16",
+    cardTitle: "The radical activist's apology",
+    cardSubtitle:
+      "Woman says her racist rant at Richmond city hall 'incredibly wrong'",
+    cardDetailedText:
+      "She claimed people in the crowd were suggesting drug addicts should just die (this was not captured on video), and this “infuriated” her and caused her to react.",
+    url: "https://www.richmond-news.com/local-news/woman-says-her-racist-rant-at-richmond-city-hall-incredibly-wrong-8314696",
   },
   {
     title: "2024-02-16",

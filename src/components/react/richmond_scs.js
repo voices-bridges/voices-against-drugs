@@ -37,7 +37,7 @@ We urge you to reconsider this decision for the sake of all Richmond residents' 
       },
       type: "IMAGE",
     },
-    url: "https://globalnews.ca/news/10295530/richmond-drug-site-vch/",
+    url: "https://raw.githubusercontent.com/voices-bridges/voices-against-drugs/main/static/img/VCH-support-Richmond-OPS.jpg",
     cardDetailedText: `In a letter to the mayor and council, VCH's Richmond medical health officer expressed support for overdose prevention services — both injection and inhalation — in the city, along with an “analysis in order to identify a range of solutions that may be appropriate to our local context.”`,
   },
   {

@@ -33,7 +33,7 @@ We urge you to reconsider this decision for the sake of all Richmond residents' 
     media: {
       name: "VCH' Richmond medical health officer supports OPS",
       source: {
-        url: "https://raw.githubusercontent.com/voices-bridges/voices-against-drugs/main/static/img/VCH-support-Richmond-OPS.jpg",
+        url: "https://raw.githubusercontent.com/voices-bridges/voices-against-drugs/main/static/img/VCH-support-Richmond-OPS-Header.png",
       },
       type: "IMAGE",
     },

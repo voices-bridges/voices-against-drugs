@@ -7,6 +7,17 @@ import ExecutionEnvironment from "@docusaurus/ExecutionEnvironment";
 
 const DATA = [
   {
+    title: "2022-10-12",
+    url: "https://www.richmond-news.com/2022-civic-election/richmond-slate-stands-in-principled-opposition-to-safe-injection-sites-5946697",
+    cardTitle:
+      "Richmond Community Coalition (RCC) alerts other candidates' hidden agenda",
+    cardSubtitle:
+      "Chak Au, Sheldon Starrett and Rahim Othman said they stand in “principled opposition against injection sites.”",
+    cardDetailedText: `Richmond doesn’t have a safe-injection site open to the public where people can test their drugs to see if they’ve been cut with other substances that can cause users to go into respiratory arrest and cause death. Both of the temporary modular housing sites in Richmond have a safe-injection site, but they are only for residents of those buildings.
+
+    In a press release, RCC said certain candidates “seem to advocate for Richmond taxpayers’ money to fund injection site facilities,” and questioned whether they had a “hidden agenda” to “impose” safe-injection sites in Richmond “without consultation or accountability to Richmond residents and businesses.”`,
+  },
+  {
     title: "2024-01-30",
     cardTitle: "Richmond SCS Motion proposed",
     url: "https://citycouncil.richmond.ca/__shared/assets/Motion_Supervised_drug_consumption_site72161.pdf",
@@ -25,6 +36,14 @@ Our concerns are will the communities with safe consumption sites would increase
 We understand that those struggling with addiction need help and support but introducing such facilities might not be the best solution for everyone involved – especially when considering its potential negative impacts on communities like ours.
 We urge you to reconsider this decision for the sake of all Richmond residents' safety and well-being. Please sign this petition if you share these concerns.
 `,
+  },
+  {
+    title: "2024-02-05",
+    cardTitle: "Residents protest proposed safe-consumption site in Richmond",
+    cardSubtitle:
+      "Sheldon Starrett organized protests before the city council meeting to discuss SCS.",
+    url: "https://www.richmond-news.com/local-opioid-crisis-news/residents-protest-protest-safe-consumption-site-in-richmond-8213637",
+    cardDetailedText: `In 2023, 26 people died in Richmond of suspected drug poisonings, according to the BC Coroners Service. Starrett said people who use drugs should be treated with dignity and deserve help, and treatment should be available to them.`,
   },
   {
     title: "2024-02-05",
